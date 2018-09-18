@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Хокинг</title>
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/mimg.css" rel="stylesheet">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="css/short.css" rel="stylesheet">
+    <link href="css/li.css" rel="stylesheet">
+    <link href="css/divbio.css" rel="stylesheet">
+</head>
+<body>    
+
+<?php require 'books.php'; 
+
+    ?>
+    
+<form class="form1" method = "POST"> 
+    <div class="line"> 
+    <label class="label"> 
+    <span class="title"> Название </span><br/> 
+    <input type="text" name="title" class="inp"/><br/> 
+    </label> 
+    </div> 
+    <div class="line"> 
+    <label class="label"> 
+    <span> Автор </span><br/> 
+    <input type="text" name="author" class="inp"/><br/> 
+    </label> 
+    </div> 
+    <div class="line"> 
+    <label class="label"> 
+    <span> Год </span><br/> 
+    <input type="text" name="year" class="inp"/><br/> 
+    </label> 
+    </div> 
+    <input type = "submit" name = "done" value="Добавить" /> 
+</form>
+    
+</body>

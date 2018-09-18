@@ -1,0 +1,14 @@
+body {
+            
+            font-family: 'Courier New', monospace;
+            background-color: #f8f8f8;
+            border-top: 5px solid #f8f8f8;
+            margin: 0;
+        }
+ h1 {
+            display: inline-block;
+            color: #7e7e7e;
+            font: 36px/40px 'Oswald', sans-serif;
+            margin: 0;
+            padding: 0 10px;
+        }

@@ -1,0 +1,17 @@
+
+
+        .btn-up {
+            font: 14px 'Oswald', sans-serif;
+            position: fixed;
+            right: 25px;
+            bottom: 20px;
+            padding: 7px 18px;
+            opacity: 0.5;
+            font-size: 13px;
+            //font-weight: bold;
+            //text-decoration: none;
+            background-color: #29c5e6;
+            cursor: pointer;
+            color: red;
+            border-radius: 6px;
+        }

@@ -1,0 +1,31 @@
+  img {
+            width: 23%;
+            height: 400px;
+            object-fit: cover;
+            object-position: center;
+        }
+ #fpic {
+           
+            float: left;
+            margin-right: 10px;
+            padding-left: 30px;
+            height: 100%;
+        }
+
+        #spic {
+            float: right;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            padding-right: 30px;
+            margin-top: 10px;
+            height: 100%;
+        }
+
+        #tpic {
+            float: right;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            //padding-right: 30px;
+            margin-top: 10px;
+            height: 100%;
+        }
